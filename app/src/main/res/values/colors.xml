@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="cadastro7_bg__frame_23_ek1_color">#FFF9F3</color>
+    <color name="cadastro_10pesquisar_color">#A8BA31</color>
+    <color name="inicial_m">#fae987</color>
+    <color name="inicial_m1">#D4D69C</color>
+    <color name="inicialcalorias_color">#7A3F18</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+
+
+</resources>

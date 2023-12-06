@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "584940302894",
+    "project_id": "nutr1box",
+    "storage_bucket": "nutr1box.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584940302894:android:13a84edb0a670803b225bf",
+        "android_client_info": {
+          "package_name": "br.com.tk.nutr1box"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYgLBUuS6SR9tWvekC0bK16Sx2snuJcrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584940302894:android:a043791e5a544ee2b225bf",
+        "android_client_info": {
+          "package_name": "devandroid.araujog.nutrib0x"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYgLBUuS6SR9tWvekC0bK16Sx2snuJcrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

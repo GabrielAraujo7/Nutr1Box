@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cadastro7_bg__frame_23_ek1_color"
+    tools:context=".Activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/image_24"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/nutri_box_string"
+                    android:textColor="@color/cadastro_10pesquisar_color"
+                    android:textSize="30sp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toStartOf="@+id/imgPerfil"
+                    app:layout_constraintStart_toEndOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imgPerfil"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/baseline_person_pin_24"
+                    tools:ignore="MissingConstraints" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout"
+                    android:layout_width="409dp"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/inicial_m1"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="2dp">
+
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.116"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout"
+                    app:layout_constraintVertical_bias="0.75"
+                    app:srcCompat="@drawable/background_white" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout"
+                    app:srcCompat="@drawable/clip_path_group" />
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout"
+                    app:srcCompat="@drawable/clip_path_group_ek2"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/calorias_string"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textSize="30sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="10dp"
+                    android:text="500"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textStyle="bold"
+                    android:textSize="60sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="80dp"
+                    android:text="@string/restantes_string"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="75dp"
+                    android:text="@string/meta_string"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="95dp"
+                    android:text="1500"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="125dp"
+                    android:text="@string/consumido_string"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="145dp"
+                    android:text="1000"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutAg"
+                    android:layout_width="409dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/inicial_m1"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="2dp">
+
+                    <ImageView
+                        android:id="@+id/Mais"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@color/cadastro_10pesquisar_color"
+                        app:srcCompat="@drawable/baseline_add_circle_outline_24"
+                        android:layout_marginTop="85dp"
+                        android:layout_marginStart="350dp"/>
+
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/frameLayout"
+                        android:src="@drawable/baseline_water_drop_24"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginTop="17dp"
+                        android:text="@string/agua_string"
+                        android:textColor="@color/inicialcalorias_color"
+                        android:textSize="30sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="280dp"
+                        android:layout_marginTop="17dp"
+                        android:text="@string/ml_string"
+                        android:textColor="@color/inicialcalorias_color"
+                        android:textSize="30sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+                    <EditText
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="80dp"
+                        android:hint="@string/adicionar__gua_string"/>
+
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:padding="16dp"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayoutAg"
+                    app:srcCompat="@drawable/pasted_20231205_121457" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:background="@drawable/background_caixa_texto_radius"
+        android:backgroundTint="@color/inicial_m1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtInicio"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:text="@string/inicio"
+            android:layout_marginRight="1.5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:background="@drawable/background_caixa_texto_radius"
+            android:backgroundTint="@color/cadastro_10pesquisar_color"/>
+
+        <TextView
+            android:id="@+id/txtRefeicoes"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:text="@string/refei__es_ek3_string"
+            android:layout_marginRight="1.5dp"
+            android:layout_marginLeft="1.5dp"
+            android:gravity="center"
+            android:textColor="@color/inicialcalorias_color"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:background="@drawable/background_caixa_texto_radius"/>
+
+        <TextView
+            android:id="@+id/txtCompras"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:text="@string/compras"
+            android:layout_marginRight="1.5dp"
+            android:layout_marginLeft="1.5dp"
+            android:gravity="center"
+            android:textColor="@color/inicialcalorias_color"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:background="@drawable/background_caixa_texto_radius"/>
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:text="@string/info"
+            android:layout_marginLeft="1.5dp"
+            android:gravity="center"
+            android:textColor="@color/inicialcalorias_color"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:background="@drawable/background_caixa_texto_radius"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

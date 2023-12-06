@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/cadastro7_bg__frame_23_ek1_color"
+    android:padding="6dp"
+    tools:context=".Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_22" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextColor="@android:color/darker_gray"
+        android:outlineSpotShadowColor="@color/inicialcalorias_color"
+        android:textColorHint="@color/inicialcalorias_color"
+        app:counterTextColor="@color/inicialcalorias_color"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailSubject"
+            android:hint="@string/email_string"
+            android:textColor="@color/inicialcalorias_color"
+            android:textColorHint="@color/white"
+            android:background="@drawable/background_caixa_texto"
+            android:backgroundTint="@color/inicial_m1"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/inicialcalorias_color"
+        android:textColor="@color/inicialcalorias_color"
+        app:counterTextColor="@color/inicialcalorias_color"
+        app:errorEnabled="true"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/senha_string"
+            android:background="@drawable/background_caixa_texto"
+            android:backgroundTint="@color/inicial_m1"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btEntrar"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/inicial_m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inicialcalorias_color"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textSize="20sp"
+        android:text="@string/entrar_string" />
+
+    <TextView
+        android:id="@+id/txtCadastro"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/inicialcalorias_color"
+        android:text="@string/cadastre_se_string"/>
+
+</LinearLayout>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cadastro7_bg__frame_23_ek1_color"
+    tools:context=".Activity.CadastroActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:padding="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="32sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/inicialcalorias_color"
+                android:text="@string/sobre_voce"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@android:color/darker_gray"
+                android:outlineSpotShadowColor="@color/inicialcalorias_color"
+                android:textColorHint="@color/inicialcalorias_color"
+                app:counterTextColor="@color/inicialcalorias_color"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/insira_seu_nome_string"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/background_caixa_texto"
+                    android:backgroundTint="@color/inicial_m1"
+                    android:textCursorDrawable="@null"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@android:color/darker_gray"
+                android:outlineSpotShadowColor="@color/inicialcalorias_color"
+                android:textColorHint="@color/inicialcalorias_color"
+                app:counterTextColor="@color/inicialcalorias_color"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailSubject"
+                    android:hint="@string/insira_seu_email_string"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/background_caixa_texto"
+                    android:backgroundTint="@color/inicial_m1"
+                    android:textCursorDrawable="@null"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etSenha1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@android:color/darker_gray"
+                android:outlineSpotShadowColor="@color/inicialcalorias_color"
+                android:textColorHint="@color/inicialcalorias_color"
+                app:counterTextColor="@color/inicialcalorias_color"
+                app:errorEnabled="true"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_caixa_texto"
+                    android:backgroundTint="@color/inicial_m1"
+                    android:hint="@string/senha_string"
+                    android:inputType="textPassword"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textColorHint="@color/white"
+                    android:textCursorDrawable="@null"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etSenha2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@android:color/darker_gray"
+                android:outlineSpotShadowColor="@color/inicialcalorias_color"
+                android:textColorHint="@color/inicialcalorias_color"
+                app:counterTextColor="@color/inicialcalorias_color"
+                app:errorEnabled="true"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="@string/confirme_sua_senha_string"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/background_caixa_texto"
+                    android:backgroundTint="@color/inicial_m1"
+                    android:textCursorDrawable="@null"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/inicialcalorias_color"
+                android:textColorHint="@color/white"
+                android:background="@drawable/background_caixa_texto"
+                android:backgroundTint="@color/inicial_m1"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/sexo_string"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButtonCadMasculino"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/masculino_string"
+                            android:textColor="@color/inicialcalorias_color"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/radioButtonCadFeminino"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/feminino_string"
+                            android:textColor="@color/inicialcalorias_color"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtDataNascimento"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:padding="2dp"
+                android:layout_marginTop="6dp"
+                android:inputType="datetime"
+                android:hint="@string/data_nascimento"
+                android:textColor="@color/inicialcalorias_color"
+                android:textColorHint="@color/inicialcalorias_color"
+                android:background="@drawable/background_caixa_texto"
+                android:backgroundTint="@color/inicial_m1"
+                android:textCursorDrawable="@null"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="6dp">
+
+                <EditText
+                    android:id="@+id/txtPeso"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="@string/peso_atual_string"
+                    android:inputType="numberDecimal"
+                    android:padding="2dp"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textColorHint="@color/inicialcalorias_color"
+                    android:background="@drawable/background_caixa_texto"
+                    android:backgroundTint="@color/inicial_m1"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginRight="3dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txtAltura"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:hint="@string/altura_atual_string"
+                    android:inputType="numberDecimal"
+                    android:padding="2dp"
+                    android:textColor="@color/inicialcalorias_color"
+                    android:textColorHint="@color/inicialcalorias_color"
+                    android:background="@drawable/background_caixa_texto"
+                    android:backgroundTint="@color/inicial_m1"
+                    android:textCursorDrawable="@null"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="32sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/inicialcalorias_color"
+                android:text="@string/qual_a_sua_meta_atual__string"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:textColor="@color/inicialcalorias_color"
+                android:textColorHint="@color/white"
+                android:background="@drawable/background_caixa_texto"
+                android:backgroundTint="@color/inicial_m1">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioManterPeso"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/manterPeso"
+                        android:textColor="@color/inicialcalorias_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/radioGanharPeso"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ganharPeso"
+                        android:textColor="@color/inicialcalorias_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/radioPerderPeso"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/perderPeso"
+                        android:textColor="@color/inicialcalorias_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:backgroundTint="@color/inicial_m1"
+        android:textColor="@color/inicialcalorias_color"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="@string/cadastre_se_string" />
+
+</LinearLayout>

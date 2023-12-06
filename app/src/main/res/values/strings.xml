@@ -1,0 +1,194 @@
+<resources>
+    <!-- login strings -->
+
+
+    <string name="user_not_found">Usuário não está cadastrado!</string>
+    <string name="cadastre_se_string">Cadastre-se</string>
+    <string name="alimentos">Alimentos</string>
+    <string name="receitas">Receitas</string>
+
+    <string name="compras">Compras</string>
+    <string name="info">Info</string>
+    <string name="paodeforma">Pão de Forma</string>
+    <string name="visconti">visconti</string>
+    <string name="calorias">Calorias:&#160;</string>
+    <string name="alergenico">Alergênicos:&#160;</string>
+    <string name="frameprodutos">caloria: 125kcal</string>
+    <string name="produto">Produto</string>
+    <string name="marca">Marca</string>
+    <string name="meunome">Gabriel Araújo</string>
+    <string name="meta12">12kg atingidos da meta!</string>
+    <string name="frameinfo">12kg atingidos da meta!</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="progresso">Progresso</string>
+    <string name="metas">Metas</string>
+    <string name="receita_e_alimentos">Receitas e Alimentos</string>
+    <string name="sair">Sair</string>
+    <string name="txtCompras">Compras</string>
+
+
+    <string name="ou_string">ou</string>
+    <string name="insira_sua_senha_string">Insira sua senha</string>
+    <string name="insira_seu_email_string">Insira seu email</string>
+    <string name="entrar_string">Entrar</string>
+    <string name="email_string">Email</string>
+    <string name="senha_string">Senha</string>
+    <string name="confirme_senha_string">Confirme sua Senha</string>
+    <string name="procure">Pesquisar </string>
+    <string name="compra">Compras </string>
+    <string name="ultimas">Últimas pesquisas </string>
+    <string name="framepao">Pao De Forma </string>
+    <string name="frameproduto">Pao De Forma </string>
+
+
+    <!-- refei__es strings -->
+
+
+    <string name="sobre_o_projeto_string">Sobre o projeto</string>
+    <string name="alunos_string">Alunos</string>
+    <string name="ana_beatriz_benigno_matos_lima_string">Ana Beatriz Benigno Matos Lima</string>
+    <string name="jo_o_gabriel_de_ara_jo_nunes_string">Joo Gabriel de Arajo Nunes</string>
+    <string name="beltrano_taltaltal_souza_string">Beltrano Taltaltal Souza</string>
+    <string name="z__maria_fulano_souza_string">Z Maria Fulano Souza</string>
+    <string name="leandro_silva_taddeo_string">Leandro Silva Taddeo</string>
+    <string name="professor_string">Professor</string>
+    <string name="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__maecenas_egestas_faucibus_dapibus__etiam_commodo_mi_id_scelerisque_consequat__praesent_vel_condimentum_massa__ut_cursus_eros__sed_nisi_massa__laoreet_a_porttitor_sit_amet__interdum_eget_mi__nulla_facilisi__sed_odio_lacus__mollis_at_suscipit_at__euismod_viverra_augue__vivamus_efficitur_varius_ex__et_ullamcorper_est_pulvinar_et__nulla_facilisi__etiam_pretium_sodales_libero_non_tincidunt__in_tellus_nisl__pharetra_id_porta_vel__commodo_vitae_magna__ut_mollis_nisi_justo__vel_fermentum_metus_pretium_vitae__lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__maecenas_egestas_faucibus_dapibus__etiam_commodo_mi_id_scelerisque_consequat__string">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas faucibus dapibus. Etiam commodo mi id scelerisque consequat. Praesent vel condimentum massa, ut cursus eros. Sed nisi massa, laoreet a porttitor sit amet, interdum eget mi. Nulla facilisi. Sed odio lacus, mollis at suscipit at, euismod viverra augue. Vivamus efficitur varius ex, et ullamcorper est pulvinar et. Nulla facilisi. Etiam pretium sodales libero non tincidunt. In tellus nisl, pharetra id porta vel, commodo vitae magna. Ut mollis nisi justo, vel fermentum metus pretium vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas faucibus dapibus. Etiam commodo mi id scelerisque consequat. </string>
+
+
+    <!-- cadastro strings -->
+
+
+    <string name="confirme_sua_senha_string">Confirme sua senha</string>
+    <string name="insira_seu_nome_string">Insira seu nome</string>
+    <string name="insira_seu_sobrenome_string">Insira seu sobrenome</string>
+    <string name="primeiro_nome_string">Primeiro nome</string>
+    <string name="sobrenome_string">Sobrenome</string>
+
+    <string name="pr_ximo_string">próximo</string>
+    <string name="sobre_voce">Sobre você</string>
+
+
+    <!-- cadastro_7 strings -->
+
+
+    <string name="feminino_string">Feminino</string>
+    <string name="masculino_string">Masculino</string>
+
+    <string name="ex___20_string">Ex.: 20</string>
+    <string name="ex___70_string">Ex.: 70</string>
+    <string name="ex___1_70_string">Ex.: 1.70</string>
+    <string name="sexo_string">Sexo</string>
+    <string name="data_nascimento">Data Nascimento</string>
+    <string name="peso_atual_string">Peso Atual</string>
+    <string name="altura_atual_string">Altura Atual</string>
+
+
+    <!-- cadastro_8 strings -->
+
+
+    <string name="metas_string">Metas</string>
+    <string name="perder_peso_string">Perder Peso</string>
+    <string name="manter_peso_string">Manter Peso</string>
+    <string name="manter_peso_ek1_string">Manter Peso</string>
+    <string name="qual_a_sua_meta_atual__string">Qual a sua meta atual?</string>
+    <string name="qual_a_sua_meta_de_peso_atual__string">Qual a sua meta de peso atual?</string>
+    <string name="qual_a_sua_meta_semanal__string">Qual a sua meta semanal?</string>
+    <string name="_0_25_kg_string">0,25 kg</string>
+    <string name="_0_50_kg_string">0,50 kg</string>
+    <string name="_0_75_kg_string">0,75 kg</string>
+
+    <string name="ex___60_string">Ex.: 60</string>
+
+    <!-- cadastro_10 strings -->
+
+    <string name="app_name">Nutri Box</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="opcional_string">opcional</string>
+    <string name="restri__es_string">Restries</string>
+    <string name="voc__tem_alguma_restri__o_alimentar__string">Voc tem alguma restrio alimentar?</string>
+    <string name="pesquisar_string">Pesquisar</string>
+    <string name="finalizar_string">finalizar</string>
+    <string name="voltar_string">voltar</string>
+
+    <!-- inicial strings -->
+
+    <string name="calorias_string">Calorias Restantes</string>
+    <string name="meta_string">Meta</string>
+    <string name="consumido_string">Consumido</string>
+    <string name="_1500_string">1500</string>
+    <string name="_1000_string">1000</string>
+    <string name="_500_string">500</string>
+    <string name="restantes_string">Restantes</string>
+    <string name="peso_string">Peso</string>
+    <string name="_50_string">50</string>
+    <string name="_60_string">60</string>
+    <string name="_70_string">70</string>
+    <string name="_80_string">80</string>
+    <string name="_90_string">90</string>
+    <string name="_23_10_string">23/10</string>
+    <string name="_23_10_ek1_string">23/10</string>
+    <string name="_83_string">83</string>
+    <string name="_72_string">72</string>
+    <string name="_76_string">76</string>
+    <string name="_68_string">68</string>
+    <string name="_72_ek1_string">72</string>
+    <string name="_23_10_ek2_string">23/10</string>
+    <string name="_23_10_ek3_string">23/10</string>
+    <string name="_23_10_ek4_string">23/10</string>
+    <string name="agua_string">Água</string>
+    <string name="ml_string">ml</string>
+    <string name="zero_string">0</string>
+    <string name="adicionar__gua_string">Adicionar Água</string>
+    <string name="adicionar_cafe_string">Adicionar Café</string>
+    <string name="_1500ml_ek1_string">1500ml</string>
+    <string name="adicionar__gua_ek1_string">Adicionar gua</string>
+    <string name="nutri_box_string">NUTRI BOX</string>
+    <string name="_gua_ek1_string">gua</string>
+    <string name="inicio">Inicio</string>
+    <string name="milquinhentos">1500</string>
+    <string name="minus">-</string>
+    <string name="mil">1000</string>
+    <string name="meta">meta</string>
+    <string name="alimentacao">alimentação</string>
+    <string name="igualdade">=</string>
+    <string name="quinhentos">500</string>
+    <string name="Cafedamanha">Café da Manhã</string>
+
+
+    <!-- refei__es strings -->
+
+    <string name="refei__es_ek3_string">Refeições</string>
+
+    <string name="calorias_restantes_string">Calorias Restantes</string>
+
+    <string name="alimenta__o_string">alimentao</string>
+
+    <string name="cafe_da_manha">Café da Manhã</string>
+    <string name="_0_string">0</string>
+    <string name="adicionar_refei__o_string">Adicionar refeição</string>
+    <string name="almo_o_string">Almoço</string>
+    <string name="arroz_com_frango_string">Arroz com Frango</string>
+    <string name="_650_string">650</string>
+    <string name="_650_ek1_string">650</string>
+    <string name="adicionar_refei__o_ek1_string">Adicionar refeio</string>
+    <string name="jantar_string">Jantar</string>
+    <string name="sandu_che_de_queijo_string">Sanduche de queijo</string>
+    <string name="_300_string">300</string>
+    <string name="_300_ek1_string">300</string>
+    <string name="adicionar_refei__o_ek2_string">Adicionar refeio</string>
+    <string name="lanches_string">Lanches</string>
+    <string name="chiclete_favorito_string">Chiclete favorito</string>
+
+    <string name="_50_ek1_string">50</string>
+    <string name="adicionar_alimento_string">Adicionar alimento</string>
+
+    <string name="ganharPeso">Ganhar Peso</string>
+    <string name="perderPeso">Perder Peso</string>
+    <string name="manterPeso">Manter Peso</string>
+    <string name="zero">0</string>
+    <string name="composicao">Composição</string>
+
+    <string name="erro">Erro:&#160;</string>
+    <string name="bem_vindo">Bem-vindo:&#160;</string>
+
+</resources>
